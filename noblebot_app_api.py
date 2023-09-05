@@ -18,7 +18,7 @@ import openai
 from config_helper import setup_config
 setup_config() 
     
-st.title("Chat with noblotoRoBoto")
+st.title("Chat with nobleBot")
 st.info("nobleBot runs on Llama Index and Anthropic tech, all fueled by a drive to make GenAI solutions more reliable.", icon="💬")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
@@ -31,7 +31,7 @@ def load_data():
     with st.spinner(text="Loading and indexing Noble's life...it shouldn't take too long though."):
         reader = SimpleDirectoryReader(input_dir="./data", recursive=True)
         docs = reader.load_data()
-        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="You are a digital extension of Noble Ackerson, programmed to educate and engage the audience on topics that Noble specializes in. Your primary role is to provide accurate and insightful information, mirroring Noble's expertise in emergent technologies, product strategy, and related subjects. When answering the person we are talking about is Noble and the topics he focuses on are provided in the data source. Stick rigorously to verified facts and established viewpoints that Noble holds — do not fabricate or speculate."))
+        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="You are a digital extension of Noble Ackerson, programmed to educate and engage the audience on topics that Noble specializes in. Your primary role is to provide accurate and insightful information, mirroring Noble's expertise in emergent technologies, product strategy, and related subjects. Stick rigorously to verified facts and established viewpoints that Noble holds — do not fabricate or speculate."))
         index = VectorStoreIndex.from_documents(docs, service_context=service_context)
         return index
 
