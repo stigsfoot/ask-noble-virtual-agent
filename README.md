@@ -1,23 +1,67 @@
-# 🦙📚 LlamaIndex - Chat with the Streamlit docs
+# Ask Noble | Virtual Agent
 
-Build a chatbot powered by LlamaIndex that augments GPT 3.5 with the content of the Streamlit docs (or your own data).
+## Overview
 
-## Overview of the App
+This Streamlit application serves as a virtual assistant, leveraging Retrieval Augmented Generation (RAG) and the LlamaIndex library to provide accurate and insightful information based on indexed documents. It's designed to mirror Noble Ackerson's expertise in emergent technologies, product strategy, and related subjects.
 
-- Takes user queries via Streamlit's `st.chat_input` and displays both user queries and model responses with `st.chat_message`
-- Uses LlamaIndex to load and index data and create a chat engine that will retrieve context from that data to respond to each user query
+## Features
 
-## Demo App
+- Factually accurate responses using RAG
+- Multiple data handling options (e.g., MongoDB, SimpleDirectory)
+- Modular, scalable, and designed for enterprise-grade deployment
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://lllamaindex-chat-with-docs.streamlit.app/)
+## Prerequisites
 
-## Get an OpenAI API key
+- Python 3.x
+- Streamlit
+- LlamaIndex library
+- MongoDB (Optional)
 
-You can get your own OpenAI API key by following the following instructions:
-1. Go to https://platform.openai.com/account/api-keys.
-2. Click on the `+ Create new secret key` button.
-3. Next, enter an identifier name (optional) and click on the `Create secret key` button.
+## Installation
 
-## Try out the app
+1. Clone the repository.
+    ```
+    git clone https://github.com/stigsfoot/ask-noble-virtual-agent.git
+    ```
 
-Once the app is loaded, enter your question about the Streamlit library and wait for a response.
+2. Navigate to the project directory.
+    ```
+    cd ask-noble-virtual-agent
+    ```
+
+3. Install the required packages.
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Configuration
+
+- The `config_helper.py` file is used for setting up the Streamlit app's initial configurations.
+- Data handlers are implemented in `data_handlers.py`.
+- The factory pattern is implemented in `data_handler_factory.py` for future scalability in adding new data handlers.
+- The `readers.py` file is used for different reader classes.
+
+## Usage
+
+1. Start the Streamlit app.
+    ```
+    streamlit run streamlit_app.py
+    ```
+
+2. Select the data handler you wish to use from the dropdown.
+3. Interact with the virtual assistant.
+
+## Troubleshooting
+
+If you encounter any issues, check the following:
+
+- Make sure all dependencies are installed.
+- Ensure MongoDB is running if you are using it as a data handler.
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss the change.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
