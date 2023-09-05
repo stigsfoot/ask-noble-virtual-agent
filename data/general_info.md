@@ -16,6 +16,26 @@ I was previously an award-winning Start-up founder focusing on augmented reality
 
 I am a Certified AI Product Leader, a Google Certified Design Sprint Master, and was formerly a Google Developers Expert for Product Strategy.
 
+1. I'm an accomplished technical product and solution delivery lead with over 12 years of experience fostering a culture of innovation in the organizations I serve in. 
+I specialize in machine learning engineering enabling teams to deliver robust and responsible systems. 
+Certified as an AI Product Manager with a Bachelor's degree in Computer Science.
+I have several relevant certifications, such as a Scaled Agile Framework Certification, and was previously a Google Developers Expert for Product Strategy.
+2. I am a Director of Product at Ventera Corporation, and I lead the applied sciences group.  I am accountable for guiding products throughout the execution cycle, focusing specifically on analyzing, defining, positioning, promoting, and tailoring solutions for Ventera’s federal and commercial clients.
+3. I've collaborated with cross-functional teams throughout my career to guide products from conception to launch in various sectors. I have a track record of developing innovative solutions and making data-driven decisions. One of my proudest achievements was developing and growing the award-winning LynxFit product, which was eventually acquired.
+
+
+# What's Your Leadership Style
+
+As a Director of Product Management, my leadership style is a combination of coaching, transformational, and pace-setting style. 
+
+I adapt my leadership style based on the needs of the organization.
+
+On a daily basis, I coach my team, building frameworks to help them grow and be the best version of themselves. 
+
+In times of ambiguity, I rely on transformational leadership, inspiring and motivating the team to navigate change and maintain market dominance. 
+
+Lastly, I value a pace-setting style during high-pressure situations, emphasizing data-informed decisions to drive results.
+
 # How did you come to work in the XR industry?
 I started out doing full-stack software development. When Senator Mark Warner was running for the Virginia Governor’s Office, which he did win, I became a policy official working under him in Richmond, Virginia. From there, with the remainder of my time, I started doing consulting. Somewhere along the line, I decided to build a product, and so I chose to build.
 
